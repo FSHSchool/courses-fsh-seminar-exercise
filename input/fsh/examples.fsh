@@ -22,4 +22,16 @@ Description: "Example of OSA BMI value"
 
 Instance: osa-practitioner-kyle-anydoc
 InstanceOf: OSAPractitioner
-Description: "Placeholder - will be filled in in Exercise 3"
+Description: "Example of OSA Practitioner"
+* identifier[NPI].value = "9988776655"
+* name.family = "Anydoc"
+* name.given = "Kyle"
+* name.prefix = "Dr."
+* gender = #male
+* address.use = #home
+* address.line = "567 Healthcare Drive"
+* address.city = "Anytown"
+* address.state = "MA"
+* address.postalCode = "12345"
+* address.country = "US"
+* qualification.code = http://terminology.hl7.org/CodeSystem/v2-0360|2.7#MD "Doctor of Medicine"

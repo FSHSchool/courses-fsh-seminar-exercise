@@ -1,4 +1,4 @@
 Profile: OSAPractitioner
-Parent: Practitioner
-Description: "Placeholder"
-// Will be filled in as part of Exercise 3
+Parent: $USCorePractitioner
+Description: "An example Practitioner profile"
+* identifier[NPI] 1..1
