@@ -88,8 +88,8 @@ jobs:
           git worktree add gh-pages
           cd gh-pages
           mkdir -p branches/${GITHUB_REF##*/}
-          rm -rf branches/${GITHUB_REF##*/}*
-          cp -r $GITHUB_WORKSPACE/output/* branches/${GITHUB_REF##*/}
+          rm -rf branches/${GITHUB_REF##*/}/*
+          cp -r $GITHUB_WORKSPACE/output/* branches/${GITHUB_REF##*/}/
           git add -A
           git commit --amend -m "Update site"
           GIT_SSH_COMMAND='ssh -i ' git push -u --force origin gh-pages
