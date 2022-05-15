@@ -2,7 +2,8 @@ name: FHIR IG Auto-build
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - '*'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
