@@ -1,0 +1,2 @@
+URL,Version,Status,OIDs,Name,Title,Description,Used
+http://hl7.org/fhir/sid/icd-10-cm,2026-04-01,active,"2.16.840.1.113883.6.90",ICD_10_CM,International Classification of Diseases, Tenth Revision, Clinical Modification (ICD-10-CM),"International Classification of Diseases, Tenth Revision, Clinical Modification (ICD-10-CM)","ValueSet/osa-vs"

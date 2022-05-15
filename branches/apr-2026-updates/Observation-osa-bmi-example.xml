@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="osa-bmi-example"/>
+  <meta>
+    <profile value="http://fshschool.org/courses-fsh-seminar-exercise/StructureDefinition/OSABodyMassIndex"/>
+  </meta>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><p class="res-header-id"><b>Generated Narrative: Observation osa-bmi-example</b></p><a name="osa-bmi-example"> </a><a name="hcosa-bmi-example"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: en</p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-OSABodyMassIndex.html">OSABodyMassIndex</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}">Vital Signs</span></p><p><b>code</b>: <span title="Codes:{http://loinc.org 39156-5}">Body mass index (BMI) [Ratio]</span></p><p><b>subject</b>: <a href="Patient-osa-patient-jane-doe.html">Jane Doe  Female, DoB: 1950-01-22 ( Medical Record Number: 1234 (use: usual, ))</a></p><p><b>effective</b>: 2021-09-28</p><p><b>performer</b>: <a href="Practitioner-osa-practitioner-kyle-anydoc.html">Practitioner</a></p><p><b>value</b>: 32.5 kg/m2<span style="background: LightGoldenRodYellow"> (Details: UCUM  codekg/m2 = 'kg/m2')</span></p></div>
+  </text>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="vital-signs"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="39156-5"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/osa-patient-jane-doe"/>
+  </subject>
+  <effectiveDateTime value="2021-09-28"/>
+  <performer>
+    <reference value="Practitioner/osa-practitioner-kyle-anydoc"/>
+  </performer>
+  <valueQuantity>
+    <value value="32.5"/>
+    <unit value="kg/m2"/>
+    <system value="http://unitsofmeasure.org"/>
+    <code value="kg/m2"/>
+  </valueQuantity>
+</Observation>

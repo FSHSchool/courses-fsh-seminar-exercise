@@ -1,0 +1,374 @@
+{
+  "codeSystems" : [{
+    "url" : "http://fshschool.org/courses-fsh-seminar-exercise/ValueSet/osa-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "ObstructiveSleepApneaVS",
+    "title" : "Obstructive Sleep Apnea Conditions",
+    "description" : "Obstructive Sleep Apnea Conditions",
+    "systems" : ["http://hl7.org/fhir/sid/icd-10-cm"]
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/address-type",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "AddressType",
+    "title" : "AddressType",
+    "description" : "The type of an address (physical / postal).",
+    "systems" : ["http://hl7.org/fhir/address-type"],
+    "oids" : ["2.16.840.1.113883.4.642.3.69"],
+    "sources" : ["2.16.840.1.113883.4.642.3.69"],
+    "uses" : {
+    },
+    "StructureDefinition-OSAPatient.html" : "OSAPatient"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/address-use",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "AddressUse",
+    "title" : "AddressUse",
+    "description" : "The use of an address.",
+    "systems" : ["http://hl7.org/fhir/address-use"],
+    "oids" : ["2.16.840.1.113883.4.642.3.67"],
+    "sources" : ["2.16.840.1.113883.4.642.3.67"],
+    "uses" : {
+    },
+    "StructureDefinition-OSAPatient.html" : "OSAPatient"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/administrative-gender",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "AdministrativeGender",
+    "title" : "AdministrativeGender",
+    "description" : "The gender of a person used for administrative purposes.",
+    "systems" : ["http://hl7.org/fhir/administrative-gender"],
+    "oids" : ["2.16.840.1.113883.4.642.3.1"],
+    "sources" : ["2.16.840.1.113883.4.642.3.1"],
+    "uses" : {
+    },
+    "StructureDefinition-OSAPractitioner.html" : "OSAPractitioner",
+    "StructureDefinition-OSAPatient.html" : "OSAPatient"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/body-site",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "SNOMEDCTBodyStructures",
+    "title" : "SNOMED CT Body Structures",
+    "description" : "This value set includes all codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 442083009 (Anatomical or acquired body site (body structure)).",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.141"],
+    "sources" : ["2.16.840.1.113883.4.642.3.141"],
+    "uses" : {
+    },
+    "StructureDefinition-OSABodyMassIndex.html" : "OSABodyMassIndex"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/contact-point-system",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "ContactPointSystem",
+    "title" : "ContactPointSystem",
+    "description" : "Telecommunications form for contact point.",
+    "systems" : ["http://hl7.org/fhir/contact-point-system"],
+    "oids" : ["2.16.840.1.113883.4.642.3.71"],
+    "sources" : ["2.16.840.1.113883.4.642.3.71"],
+    "uses" : {
+    },
+    "StructureDefinition-OSAPatient.html" : "OSAPatient"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/contact-point-use",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "ContactPointUse",
+    "title" : "ContactPointUse",
+    "description" : "Use of contact point.",
+    "systems" : ["http://hl7.org/fhir/contact-point-use"],
+    "oids" : ["2.16.840.1.113883.4.642.3.73"],
+    "sources" : ["2.16.840.1.113883.4.642.3.73"],
+    "uses" : {
+    },
+    "StructureDefinition-OSAPatient.html" : "OSAPatient"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/data-absent-reason",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "DataAbsentReason",
+    "title" : "DataAbsentReason",
+    "description" : "Used to specify why the normally expected content of the data element is missing.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/data-absent-reason"],
+    "oids" : ["2.16.840.1.113883.4.642.3.5"],
+    "sources" : ["2.16.840.1.113883.4.642.3.5"],
+    "uses" : {
+    },
+    "StructureDefinition-OSABodyMassIndex.html" : "OSABodyMassIndex"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/identifier-type",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "Identifier Type Codes",
+    "title" : "IdentifierType",
+    "description" : "A coded type for an identifier that can be used to determine which identifier to use for a specific purpose.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0203"],
+    "oids" : ["2.16.840.1.113883.4.642.3.45"],
+    "sources" : ["2.16.840.1.113883.4.642.3.45"],
+    "uses" : {
+    },
+    "StructureDefinition-OSAPatient.html" : "OSAPatient"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "IdentifierUse",
+    "title" : "IdentifierUse",
+    "description" : "Identifies the purpose for this identifier, if known .",
+    "systems" : ["http://hl7.org/fhir/identifier-use"],
+    "oids" : ["2.16.840.1.113883.4.642.3.57"],
+    "sources" : ["2.16.840.1.113883.4.642.3.57"],
+    "uses" : {
+    },
+    "StructureDefinition-OSAPatient.html" : "OSAPatient"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/languages",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "CommonLanguages",
+    "title" : "Common Languages",
+    "description" : "This value set includes common codes from BCP-47 (http://tools.ietf.org/html/bcp47)",
+    "systems" : ["urn:ietf:bcp:47"],
+    "oids" : ["2.16.840.1.113883.4.642.3.20"],
+    "sources" : ["2.16.840.1.113883.4.642.3.20"],
+    "uses" : {
+    },
+    "StructureDefinition-OSAPractitioner.html" : "OSAPractitioner",
+    "StructureDefinition-OSABodyMassIndex.html" : "OSABodyMassIndex",
+    "StructureDefinition-OSAPatient.html" : "OSAPatient"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/link-type",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "LinkType",
+    "title" : "LinkType",
+    "description" : "The type of link between this patient resource and another patient resource.",
+    "systems" : ["http://hl7.org/fhir/link-type"],
+    "oids" : ["2.16.840.1.113883.4.642.3.423"],
+    "sources" : ["2.16.840.1.113883.4.642.3.423"],
+    "uses" : {
+    },
+    "StructureDefinition-OSAPatient.html" : "OSAPatient"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/marital-status",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "Marital Status Codes",
+    "title" : "MaritalStatus",
+    "description" : "This value set defines the set of codes that can be used to indicate the marital status of a person.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+    "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"],
+    "oids" : ["2.16.840.1.113883.4.642.3.29"],
+    "sources" : ["2.16.840.1.113883.4.642.3.29"],
+    "uses" : {
+    },
+    "StructureDefinition-OSAPatient.html" : "OSAPatient"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/name-use",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "NameUse",
+    "title" : "NameUse",
+    "description" : "The use of a human name.",
+    "systems" : ["http://hl7.org/fhir/name-use"],
+    "oids" : ["2.16.840.1.113883.4.642.3.65"],
+    "sources" : ["2.16.840.1.113883.4.642.3.65"],
+    "uses" : {
+    },
+    "StructureDefinition-OSAPatient.html" : "OSAPatient"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/observation-category",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ObservationCategoryCodes",
+    "title" : "Observation Category Codes",
+    "description" : "Observation Category codes.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/observation-category"],
+    "oids" : ["2.16.840.1.113883.4.642.3.403"],
+    "sources" : ["2.16.840.1.113883.4.642.3.403"],
+    "uses" : {
+    },
+    "StructureDefinition-OSABodyMassIndex.html" : "OSABodyMassIndex"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/observation-interpretation",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "ObservationInterpretationCodes",
+    "title" : "Observation Interpretation Codes",
+    "description" : "A categorical assessment, providing a rough qualitative interpretation of the observation value,    such as “normal”/ “abnormal”,”low” / “high”, “better” / “worse”, “susceptible” / “resistant”, “expected”/ “not expected”.    The value set is intended to be for ANY use where coded representation of an interpretation is needed.   \r\n   \r\n   Notes:\r\n   \r\n   This is being communicated in v2.x in OBX-8 (Observation Interpretation), in v3 in ObservationInterpretation (CWE) in R1 (Representative Realm) and in FHIR in    Observation.interpretation. Historically these values come from the laboratory domain, and these codes are extensively    used. The value set binding is extensible, so codes outside the value set that are needed for interpretation concepts    (i.e. particular meanings) that are not included in the value set can be used, and these new codes may also be added to    the value set and published in a future version.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"],
+    "oids" : ["2.16.840.1.113883.4.642.3.399"],
+    "sources" : ["2.16.840.1.113883.4.642.3.399"],
+    "uses" : {
+    },
+    "StructureDefinition-OSABodyMassIndex.html" : "OSABodyMassIndex"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/observation-methods",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ObservationMethods",
+    "title" : "Observation Methods",
+    "description" : "Observation Method codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 272394005 (Technique (qualifier value)) or is-a 129264002 (Action (qualifier value)) or is-a 386053000 (Evaluation procedure(procedure))",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.395"],
+    "sources" : ["2.16.840.1.113883.4.642.3.395"],
+    "uses" : {
+    },
+    "StructureDefinition-OSABodyMassIndex.html" : "OSABodyMassIndex"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/observation-status",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "ObservationStatus",
+    "title" : "ObservationStatus",
+    "description" : "Codes providing the status of an observation.",
+    "systems" : ["http://hl7.org/fhir/observation-status"],
+    "oids" : ["2.16.840.1.113883.4.642.3.400"],
+    "sources" : ["2.16.840.1.113883.4.642.3.400"],
+    "uses" : {
+    },
+    "StructureDefinition-OSABodyMassIndex.html" : "OSABodyMassIndex"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/patient-contactrelationship",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "PatientContactRelationship",
+    "title" : "Patient Contact Relationship ",
+    "description" : "The nature of the relationship between the patient and the contact person.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0131"],
+    "oids" : ["2.16.840.1.113883.4.642.3.1130"],
+    "sources" : ["2.16.840.1.113883.4.642.3.1130"],
+    "uses" : {
+    },
+    "StructureDefinition-OSAPatient.html" : "OSAPatient"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/quantity-comparator",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "QuantityComparator",
+    "title" : "QuantityComparator",
+    "description" : "How the Quantity should be understood and represented.",
+    "systems" : ["http://hl7.org/fhir/quantity-comparator"],
+    "oids" : ["2.16.840.1.113883.4.642.3.59"],
+    "sources" : ["2.16.840.1.113883.4.642.3.59"],
+    "uses" : {
+    },
+    "StructureDefinition-OSABodyMassIndex.html" : "OSABodyMassIndex"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/referencerange-appliesto",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ObservationReferenceRangeAppliesToCodes",
+    "title" : "Observation Reference Range Applies To Codes",
+    "description" : "This value set defines a set of codes that can be used to indicate the particular target population the reference range applies to.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-Race",
+    "http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.407"],
+    "sources" : ["2.16.840.1.113883.4.642.3.407"],
+    "uses" : {
+    },
+    "StructureDefinition-OSABodyMassIndex.html" : "OSABodyMassIndex"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/referencerange-meaning",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ObservationReferenceRangeMeaningCodes",
+    "title" : "Observation Reference Range Meaning Codes",
+    "description" : "This value set defines a set of codes that can be used to indicate the meaning/use of a reference range for a particular target population.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/referencerange-meaning"],
+    "oids" : ["2.16.840.1.113883.4.642.3.397"],
+    "sources" : ["2.16.840.1.113883.4.642.3.397"],
+    "uses" : {
+    },
+    "StructureDefinition-OSABodyMassIndex.html" : "OSABodyMassIndex"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/ucum-vitals-common",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "VitalSignsUnits",
+    "title" : "Vital Signs Units",
+    "description" : "Common UCUM units for recording Vital Signs",
+    "systems" : ["http://unitsofmeasure.org"],
+    "oids" : ["2.16.840.1.113883.4.642.3.955"],
+    "sources" : ["2.16.840.1.113883.4.642.3.955"],
+    "uses" : {
+    },
+    "StructureDefinition-OSABodyMassIndex.html" : "OSABodyMassIndex"
+  },
+  {
+    "url" : "http://hl7.org/fhir/us/core/ValueSet/simple-language",
+    "version" : "3.2.0",
+    "status" : "active",
+    "name" : "LanguageCodesWithLanguageAndOptionallyARegionModifier",
+    "title" : "Language codes with language and optionally a region modifier",
+    "description" : "This value set includes codes from [BCP-47](http://tools.ietf.org/html/bcp47). This value set matches the ONC 2015 Edition LanguageCommunication data element value set within C-CDA to use a 2 character language code if one exists,   and a 3 character code if a 2 character code does not exist. It points back to [RFC 5646](https://tools.ietf.org/html/rfc5646), however only the language codes are required, all other elements are optional.",
+    "systems" : ["urn:ietf:bcp:47"],
+    "uses" : {
+    },
+    "StructureDefinition-OSAPatient.html" : "OSAPatient"
+  },
+  {
+    "url" : "http://hl7.org/fhir/us/core/ValueSet/us-core-usps-state",
+    "version" : "3.2.0",
+    "status" : "active",
+    "name" : "UspsTwoLetterAlphabeticCodes",
+    "title" : "USPS Two Letter Alphabetic Codes",
+    "description" : "This value set defines two letter USPS alphabetic codes.",
+    "systems" : ["https://www.usps.com/"],
+    "oids" : ["2.16.840.1.113883.4.642.3.40"],
+    "sources" : ["2.16.840.1.113883.4.642.3.40"],
+    "uses" : {
+    },
+    "StructureDefinition-OSAPatient.html" : "OSAPatient"
+  },
+  {
+    "url" : "http://hl7.org/fhir/us/core/ValueSet/us-core-vital-signs",
+    "version" : "3.2.0",
+    "status" : "active",
+    "name" : "UsCoreVitalSigns",
+    "title" : "US Core Vital Signs ValueSet",
+    "description" : "The vital sign codes from the base FHIR and US Core Vital Signs.",
+    "systems" : ["http://loinc.org"],
+    "uses" : {
+    },
+    "StructureDefinition-OSABodyMassIndex.html" : "OSABodyMassIndex"
+  },
+  {
+    "url" : "http://terminology.hl7.org/ValueSet/v2-2.7-0360",
+    "version" : "0360",
+    "status" : "active",
+    "name" : "v2.0360.2.7",
+    "title" : "v2 table 0360, Version 2.7",
+    "description" : "FHIR Value set/code system definition for HL7 v2 table 0360 ver 2.9 ( Degree/License/Certificate)",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0360|2.7"],
+    "uses" : {
+    },
+    "StructureDefinition-OSAPractitioner.html" : "OSAPractitioner"
+  }]
+}

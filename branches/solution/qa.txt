@@ -1,0 +1,33 @@
+﻿FSHSeminarExercise : Validation Results
+=========================================
+
+err = 0, warn = 4, info = 0
+IG Publisher Version: 1.1.120
+Generated Wed May 18 11:08:19 UTC 2022. FHIR version 4.0.1 for org.fshschool.courses.fsh-seminar-exercise#0.1.0 (canonical = http://fshschool.org/courses-fsh-seminar-exercise)
+ Build Errors : 0 / 0 / 0
+ /home/runner/work/courses-fsh-seminar-exercise/courses-fsh-seminar-exercise/fsh-generated/resources/ImplementationGuide-org.fshschool.courses.fsh-seminar-exercise : 0 / 0 / 1
+ /home/runner/work/courses-fsh-seminar-exercise/courses-fsh-seminar-exercise/fsh-generated/resources/Observation-osa-bmi-example : 0 / 0 / 1
+ /home/runner/work/courses-fsh-seminar-exercise/courses-fsh-seminar-exercise/fsh-generated/resources/Patient-osa-patient-jane-doe : 0 / 0 / 1
+ /home/runner/work/courses-fsh-seminar-exercise/courses-fsh-seminar-exercise/fsh-generated/resources/Practitioner-osa-practitioner-kyle-anydoc : 0 / 0 / 1
+ /home/runner/work/courses-fsh-seminar-exercise/courses-fsh-seminar-exercise/fsh-generated/resources/StructureDefinition-OSABodyMassIndex : 0 / 0 / 1
+ /home/runner/work/courses-fsh-seminar-exercise/courses-fsh-seminar-exercise/fsh-generated/resources/StructureDefinition-OSACondition : 0 / 3 / 1
+ /home/runner/work/courses-fsh-seminar-exercise/courses-fsh-seminar-exercise/fsh-generated/resources/StructureDefinition-OSAPatient : 0 / 0 / 1
+ /home/runner/work/courses-fsh-seminar-exercise/courses-fsh-seminar-exercise/fsh-generated/resources/StructureDefinition-OSAPractitioner : 0 / 0 / 1
+ /home/runner/work/courses-fsh-seminar-exercise/courses-fsh-seminar-exercise/fsh-generated/resources/StructureDefinition-age-at-osa-diagnosis : 0 / 1 / 1
+ /home/runner/work/courses-fsh-seminar-exercise/courses-fsh-seminar-exercise/fsh-generated/resources/ValueSet-osa-vs : 0 / 0 / 1
+</table>
+== n/a ==
+== fsh-generated/resources/ImplementationGuide-org.fshschool.courses.fsh-seminar-exercise.json ==
+== fsh-generated/resources/Observation-osa-bmi-example.json ==
+== fsh-generated/resources/Patient-osa-patient-jane-doe.json ==
+== fsh-generated/resources/Practitioner-osa-practitioner-kyle-anydoc.json ==
+== fsh-generated/resources/StructureDefinition-OSABodyMassIndex.json ==
+== fsh-generated/resources/StructureDefinition-OSACondition.json ==
+WARNING: OSACondition.Condition.code: Binding http://hl7.org/fhir/us/core/ValueSet/us-core-condition-code could not be expanded
+WARNING: StructureDefinition/OSACondition: StructureDefinition: Binding http://hl7.org/fhir/us/core/ValueSet/us-core-condition-code could not be expanded
+WARNING: StructureDefinition.where(url = 'http://fshschool.org/courses-fsh-seminar-exercise/StructureDefinition/OSACondition'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-OSAPatient.json ==
+== fsh-generated/resources/StructureDefinition-OSAPractitioner.json ==
+== fsh-generated/resources/StructureDefinition-age-at-osa-diagnosis.json ==
+WARNING: StructureDefinition.where(url = 'http://fshschool.org/courses-fsh-seminar-exercise/StructureDefinition/age-at-osa-diagnosis'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/ValueSet-osa-vs.json ==

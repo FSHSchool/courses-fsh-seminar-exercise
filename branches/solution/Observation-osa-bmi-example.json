@@ -1,0 +1,47 @@
+{
+  "resourceType": "Observation",
+  "id": "osa-bmi-example",
+  "meta": {
+    "profile": [
+      "http://fshschool.org/courses-fsh-seminar-exercise/StructureDefinition/OSABodyMassIndex"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"osa-bmi-example\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-OSABodyMassIndex.html\">OSABodyMassIndex</a></p></div><p><b>status</b>: final</p><p><b>category</b>: Vital Signs <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#vital-signs)</span></p><p><b>code</b>: Body mass index (BMI) [Ratio] <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#39156-5)</span></p><p><b>subject</b>: <a href=\"Patient-osa-patient-jane-doe.html\">Patient/osa-patient-jane-doe</a> \" DOE\"</p><p><b>effective</b>: 2021-09-28</p><p><b>performer</b>: <a href=\"Practitioner-osa-practitioner-kyle-anydoc.html\">Practitioner/osa-practitioner-kyle-anydoc</a> \" ANYDOC\"</p><p><b>value</b>: 32.5 kg/m2<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code kg/m2 = 'kg/m2')</span></p></div>"
+  },
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "39156-5"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/osa-patient-jane-doe"
+  },
+  "effectiveDateTime": "2021-09-28",
+  "performer": [
+    {
+      "reference": "Practitioner/osa-practitioner-kyle-anydoc"
+    }
+  ],
+  "valueQuantity": {
+    "value": 32.5,
+    "unit": "kg/m2",
+    "system": "http://unitsofmeasure.org",
+    "code": "kg/m2"
+  }
+}

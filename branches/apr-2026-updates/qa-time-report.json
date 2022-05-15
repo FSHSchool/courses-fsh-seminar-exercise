@@ -1,0 +1,410 @@
+{
+  "date" : "Fri, 10 Apr, 2026 18:20:42 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [{
+    "name" : "/fsh-generated/resources/ImplementationGuide-org.fshschool.courses.fsh-seminar-exercise.json",
+    "size" : 3246,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 74,
+      "length" : 15
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 75,
+      "length" : 11
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 75,
+      "length" : 62
+    },
+    {
+      "activity" : "validate",
+      "start" : 78,
+      "length" : 2893
+    },
+    {
+      "activity" : "validate",
+      "start" : 80,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 81,
+      "length" : 105
+    },
+    {
+      "activity" : "generate2",
+      "start" : 84,
+      "length" : 164
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 98,
+      "length" : 3
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 116,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Observation-osa-bmi-example.json",
+    "size" : 862,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 74,
+      "length" : 8
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 75,
+      "length" : 2
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 75,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 75,
+      "length" : 831
+    },
+    {
+      "activity" : "validate",
+      "start" : 80,
+      "length" : 226
+    },
+    {
+      "activity" : "generate1",
+      "start" : 81,
+      "length" : 18
+    },
+    {
+      "activity" : "generate2",
+      "start" : 84,
+      "length" : 66
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Patient-osa-patient-jane-doe.json",
+    "size" : 848,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 74,
+      "length" : 6
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 76,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 81,
+      "length" : 20
+    },
+    {
+      "activity" : "generate1",
+      "start" : 81,
+      "length" : 15
+    },
+    {
+      "activity" : "generate2",
+      "start" : 84,
+      "length" : 21
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Practitioner-osa-practitioner-kyle-anydoc.json",
+    "size" : 211,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 74,
+      "length" : 8
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 76,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 81,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 81,
+      "length" : 12
+    },
+    {
+      "activity" : "generate2",
+      "start" : 84,
+      "length" : 13
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-OSABodyMassIndex.json",
+    "size" : 1159,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 74,
+      "length" : 7
+    },
+    {
+      "activity" : "load",
+      "start" : 74,
+      "length" : 6
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 74,
+      "length" : 74
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 75,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 76,
+      "length" : 88
+    },
+    {
+      "activity" : "validate",
+      "start" : 76,
+      "length" : 703
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 80,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 81,
+      "length" : 272
+    },
+    {
+      "activity" : "generate2",
+      "start" : 84,
+      "length" : 2345
+    },
+    {
+      "activity" : "generate2",
+      "start" : 88,
+      "length" : 1269
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 98,
+      "length" : 17
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 116,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-OSAPatient.json",
+    "size" : 1353,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 74,
+      "length" : 3
+    },
+    {
+      "activity" : "load",
+      "start" : 74,
+      "length" : 4
+    },
+    {
+      "activity" : "load",
+      "start" : 74,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 75,
+      "length" : 67
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 76,
+      "length" : 42
+    },
+    {
+      "activity" : "validate",
+      "start" : 77,
+      "length" : 458
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 80,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 81,
+      "length" : 230
+    },
+    {
+      "activity" : "generate2",
+      "start" : 86,
+      "length" : 774
+    },
+    {
+      "activity" : "generate2",
+      "start" : 89,
+      "length" : 329
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 98,
+      "length" : 15
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 116,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-OSAPractitioner.json",
+    "size" : 577,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 74,
+      "length" : 3
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 75,
+      "length" : 21
+    },
+    {
+      "activity" : "scan",
+      "start" : 75,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 76,
+      "length" : 15
+    },
+    {
+      "activity" : "validate",
+      "start" : 77,
+      "length" : 109
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 80,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 82,
+      "length" : 73
+    },
+    {
+      "activity" : "generate2",
+      "start" : 87,
+      "length" : 242
+    },
+    {
+      "activity" : "generate2",
+      "start" : 89,
+      "length" : 104
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 98,
+      "length" : 4
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-osa-vs.json",
+    "size" : 664,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 74,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 74,
+      "length" : 9
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 76,
+      "length" : 169
+    },
+    {
+      "activity" : "validate",
+      "start" : 76,
+      "length" : 255
+    },
+    {
+      "activity" : "generate1",
+      "start" : 82,
+      "length" : 9
+    },
+    {
+      "activity" : "generate2",
+      "start" : 87,
+      "length" : 340
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 98,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/fsh-generated/includes/fsh-link-references.md",
+    "size" : 408,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 88,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/fsh-generated/includes/menu.xml",
+    "size" : 1043
+  },
+  {
+    "name" : "/input/pagecontent/index.md",
+    "size" : 88
+  },
+  {
+    "name" : "/template/config",
+    "size" : 0
+  },
+  {
+    "name" : "/template/config/_config.yml",
+    "size" : 140
+  },
+  {
+    "name" : "/temp/pages/_includes/artifacts.xml",
+    "size" : 5517,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 88,
+      "length" : 1
+    }]
+  }]
+}

@@ -1,0 +1,61 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "7ec7f25f-5b8f-45cb-91c5-da7a772bd085",
+  "meta" : {
+    "lastUpdated" : "2022-05-18T11:07:24.822+00:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://fshschool.org/courses-fsh-seminar-exercise/ValueSet/osa-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "osa-vs",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on http://hl7.org/fhir/sid/icd-10-cm version 2021</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-icd10CM.html\"><code>http://hl7.org/fhir/sid/icd-10-cm</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-sid-icd-10-cm-G47.33\"> </a>  G47.33</td><td>Obstructive sleep apnea (adult) (pediatric)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-sid-icd-10-cm-G47.30\"> </a>  G47.30</td><td>Sleep apnea, unspecified</td></tr></table></div>"
+      },
+      "url" : "http://fshschool.org/courses-fsh-seminar-exercise/ValueSet/osa-vs",
+      "version" : "0.1.0",
+      "name" : "ObstructiveSleepApneaVS",
+      "title" : "Obstructive Sleep Apnea Conditions",
+      "status" : "active",
+      "date" : "2022-05-18T11:07:24+00:00",
+      "publisher" : "fshschool.org",
+      "contact" : [{
+        "name" : "fshschool.org",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://fshschool.org"
+        }]
+      }],
+      "description" : "Obstructive Sleep Apnea Conditions",
+      "expansion" : {
+        "identifier" : "urn:uuid:1e116752-d01c-4b00-8fd8-31565976ca5e",
+        "timestamp" : "2022-05-18T11:08:08+00:00",
+        "total" : 2,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://hl7.org/fhir/sid/icd-10-cm|2021"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+          "code" : "G47.33",
+          "display" : "Obstructive sleep apnea (adult) (pediatric)"
+        },
+        {
+          "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+          "code" : "G47.30",
+          "display" : "Sleep apnea, unspecified"
+        }]
+      }
+    }
+  }]
+}

@@ -1,0 +1,15 @@
+Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-org.fshschool.courses.fsh-seminar-exercise.json	3246	-	0	0	0	0	1	0	11	56	0	0	0	0	0	0	0	0	0	0	62	84	0	0	0	2	0	0
+fsh-generated/resources/Observation-osa-bmi-example.json	862	4	0	0	1	0	0	0	0	1077	0	0	0	0	0	0	0	0	0	0	10	17	0	0	0	0	0	0
+fsh-generated/resources/Patient-osa-patient-jane-doe.json	848	1	0	0	0	0	0	0	1	2	0	0	0	0	0	0	0	0	0	0	7	9	0	0	0	0	0	0
+fsh-generated/resources/Practitioner-osa-practitioner-kyle-anydoc.json	211	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	4	4	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-OSABodyMassIndex.json	1159	2	0	78	0	0	0	1	0	71	0	0	1	0	0	0	0	2	0	0	203	949	0	0	0	11	0	1
+fsh-generated/resources/StructureDefinition-OSAPatient.json	1353	2	0	100	1	0	0	0	0	39	0	0	0	0	0	0	0	1	0	0	174	380	0	0	0	8	1	1
+fsh-generated/resources/StructureDefinition-OSAPractitioner.json	577	1	0	20	0	0	0	0	0	40	0	0	0	0	0	0	0	1	0	0	57	120	0	0	0	3	0	1
+fsh-generated/resources/ValueSet-osa-vs.json	664	2	0	0	0	0	0	0	0	10141	0	0	0	0	0	0	0	0	0	0	5	2571	0	0	0	0	0	0
+/fsh-generated/includes/fsh-link-references.md	408	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/fsh-generated/includes/menu.xml	1043	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/index.md	88	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/template/config	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/template/config/_config.yml	140	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/temp/pages/_includes/artifacts.xml	4280	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0	0	0	0	0	0	0

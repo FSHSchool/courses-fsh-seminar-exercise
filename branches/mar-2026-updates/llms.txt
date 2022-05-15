@@ -1,0 +1,28 @@
+# org.fshschool.courses.fsh-seminar-exercise#0.1.0: null
+
+## Pages
+
+* [Home](index.md)
+* [Artifacts Summary](artifacts.md)
+
+## Resources
+
+### ValueSets
+
+* [Obstructive Sleep Apnea Conditions](ValueSet-osa-vs.md)
+
+### Resource Profiles
+
+* [OSABodyMassIndex](StructureDefinition-OSABodyMassIndex.md)
+* [OSAPatient](StructureDefinition-OSAPatient.md)
+* [OSAPractitioner](StructureDefinition-OSAPractitioner.md)
+
+### ImplementationGuides
+
+* [FSHSeminarExercise](index.md)
+
+### Examples
+
+* [osa-bmi-example (Observation)](Observation-osa-bmi-example.md)
+* [osa-patient-jane-doe (Patient)](Patient-osa-patient-jane-doe.md)
+* [osa-practitioner-kyle-anydoc (Practitioner)](Practitioner-osa-practitioner-kyle-anydoc.md)

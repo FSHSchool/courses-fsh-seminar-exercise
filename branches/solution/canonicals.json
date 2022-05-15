@@ -1,0 +1,51 @@
+[
+  {
+    "id": "org.fshschool.courses.fsh-seminar-exercise",
+    "type": "ImplementationGuide",
+    "url": "http://fshschool.org/courses-fsh-seminar-exercise/ImplementationGuide/org.fshschool.courses.fsh-seminar-exercise",
+    "version": "0.1.0",
+    "name": "FSHSeminarExercise"
+  },
+  {
+    "id": "OSABodyMassIndex",
+    "type": "StructureDefinition",
+    "url": "http://fshschool.org/courses-fsh-seminar-exercise/StructureDefinition/OSABodyMassIndex",
+    "version": "0.1.0",
+    "name": "OSABodyMassIndex"
+  },
+  {
+    "id": "OSACondition",
+    "type": "StructureDefinition",
+    "url": "http://fshschool.org/courses-fsh-seminar-exercise/StructureDefinition/OSACondition",
+    "version": "0.1.0",
+    "name": "OSACondition"
+  },
+  {
+    "id": "OSAPatient",
+    "type": "StructureDefinition",
+    "url": "http://fshschool.org/courses-fsh-seminar-exercise/StructureDefinition/OSAPatient",
+    "version": "0.1.0",
+    "name": "OSAPatient"
+  },
+  {
+    "id": "OSAPractitioner",
+    "type": "StructureDefinition",
+    "url": "http://fshschool.org/courses-fsh-seminar-exercise/StructureDefinition/OSAPractitioner",
+    "version": "0.1.0",
+    "name": "OSAPractitioner"
+  },
+  {
+    "id": "age-at-osa-diagnosis",
+    "type": "StructureDefinition",
+    "url": "http://fshschool.org/courses-fsh-seminar-exercise/StructureDefinition/age-at-osa-diagnosis",
+    "version": "0.1.0",
+    "name": "AgeAtOSADiagnosis"
+  },
+  {
+    "id": "osa-vs",
+    "type": "ValueSet",
+    "url": "http://fshschool.org/courses-fsh-seminar-exercise/ValueSet/osa-vs",
+    "version": "0.1.0",
+    "name": "ObstructiveSleepApneaVS"
+  }
+]

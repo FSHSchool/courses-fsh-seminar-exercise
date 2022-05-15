@@ -1,0 +1,15 @@
+Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	translate	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-org.fshschool.courses.fsh-seminar-exercise.json	3246	-	0	0	0	0	0	0	11	62	0	0	0	0	0	0	0	0	0	0	0	105	164	0	0	0	3	0	1
+fsh-generated/resources/Observation-osa-bmi-example.json	862	8	0	0	2	0	0	0	1	831	0	0	0	0	0	0	0	0	0	0	0	18	66	0	0	0	0	0	0
+fsh-generated/resources/Patient-osa-patient-jane-doe.json	848	6	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	15	21	0	0	0	0	0	0
+fsh-generated/resources/Practitioner-osa-practitioner-kyle-anydoc.json	211	8	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	12	13	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-OSABodyMassIndex.json	1159	7	0	74	0	0	0	0	1	88	0	0	0	0	0	0	0	2	0	0	0	272	2345	0	0	0	17	0	1
+fsh-generated/resources/StructureDefinition-OSAPatient.json	1353	3	0	67	0	0	0	0	0	42	0	0	0	0	0	0	0	1	0	0	0	230	774	0	0	0	15	0	1
+fsh-generated/resources/StructureDefinition-OSAPractitioner.json	577	2	0	21	0	0	0	0	0	15	0	0	0	0	0	0	0	1	0	0	0	73	242	0	0	0	4	0	0
+fsh-generated/resources/ValueSet-osa-vs.json	664	1	0	0	0	0	0	0	0	169	0	0	0	0	0	0	0	0	0	0	0	9	340	0	0	0	1	0	0
+/fsh-generated/includes/fsh-link-references.md	408	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/fsh-generated/includes/menu.xml	1043	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/index.md	88	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/template/config	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/template/config/_config.yml	140	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/temp/pages/_includes/artifacts.xml	5517	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	0	0	0	0	0	0

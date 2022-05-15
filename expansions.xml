@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="c68a1476-449b-499f-be53-3e4d2c39d6ec"/>
+  <meta>
+    <lastUpdated value="2022-05-18T11:06:38.267+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://fshschool.org/courses-fsh-seminar-exercise/ValueSet/osa-vs"/>
+    <resource>
+      <ValueSet>
+        <id value="osa-vs"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 2 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on http://hl7.org/fhir/sid/icd-10-cm version 2021</p>
+            <p>All codes in this table are from the system 
+              <a href="http://terminology.hl7.org/3.1.0/CodeSystem-icd10CM.html">
+                <code>http://hl7.org/fhir/sid/icd-10-cm</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-sid-icd-10-cm-G47.33"> </a>  G47.33
+                </td>
+                <td>Obstructive sleep apnea (adult) (pediatric)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-sid-icd-10-cm-G47.30"> </a>  G47.30
+                </td>
+                <td>Sleep apnea, unspecified</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fshschool.org/courses-fsh-seminar-exercise/ValueSet/osa-vs"/>
+        <version value="0.1.0"/>
+        <name value="ObstructiveSleepApneaVS"/>
+        <title value="Obstructive Sleep Apnea Conditions"/>
+        <status value="active"/>
+        <date value="2022-05-18T11:06:38+00:00"/>
+        <publisher value="fshschool.org"/>
+        <contact>
+          <name value="fshschool.org"/>
+          <telecom>
+            <system value="url"/>
+            <value value="https://fshschool.org"/>
+          </telecom>
+        </contact>
+        <description value="Obstructive Sleep Apnea Conditions"/>
+        <expansion>
+          <identifier value="urn:uuid:e65baf7a-da66-478c-aa38-c57aad388f7c"/>
+          <timestamp value="2022-05-18T11:07:26+00:00"/>
+          <total value="2"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/sid/icd-10-cm|2021"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/sid/icd-10-cm"/>
+            <code value="G47.33"/>
+            <display value="Obstructive sleep apnea (adult) (pediatric)"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/sid/icd-10-cm"/>
+            <code value="G47.30"/>
+            <display value="Sleep apnea, unspecified"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

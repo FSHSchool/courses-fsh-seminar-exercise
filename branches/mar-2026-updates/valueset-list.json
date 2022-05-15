@@ -1,0 +1,11 @@
+{
+  "codeSystems" : [{
+    "url" : "http://fshschool.org/courses-fsh-seminar-exercise/ValueSet/osa-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "ObstructiveSleepApneaVS",
+    "title" : "Obstructive Sleep Apnea Conditions",
+    "description" : "Obstructive Sleep Apnea Conditions",
+    "systems" : ["http://hl7.org/fhir/sid/icd-10-cm"]
+  }]
+}

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="4293b72d-bee8-4036-9ed9-9c3fc5db3c78"/>
+  <meta>
+    <lastUpdated value="2026-04-10T18:20:42.062+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://fshschool.org/courses-fsh-seminar-exercise/ValueSet/osa-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx.fhir.org based on codesystem International Classification of Diseases, 10th Revision, Clinical Modification (ICD-10-CM) version 2026-04-01
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://hl7.org/fhir/sid/icd-10-cm|2026-04-01" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 2 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://hl7.org/fhir/sid/icd-10-cm-G47.33"> </a>
+                  <code>http://hl7.org/fhir/sid/icd-10-cm</code>
+                </td>
+                <td style="white-space:nowrap">  G47.33</td>
+                <td>Obstructive sleep apnea (adult) (pediatric)</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/sid/icd-10-cm&quot;, &quot;version&quot;: &quot;2026-04-01&quot;, &quot;code&quot;: &quot;G47.33&quot;, &quot;display&quot;: &quot;Obstructive sleep apnea (adult) (pediatric)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/sid/icd-10-cm&quot;&gt;&lt;version value=&quot;2026-04-01&quot;&gt;&lt;code value=&quot;G47.33&quot;&gt;&lt;display value=&quot;Obstructive sleep apnea (adult) (pediatric)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://hl7.org/fhir/sid/icd-10-cm-G47.30"> </a>
+                  <code>http://hl7.org/fhir/sid/icd-10-cm</code>
+                </td>
+                <td style="white-space:nowrap">  G47.30</td>
+                <td>Sleep apnea, unspecified</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/sid/icd-10-cm&quot;, &quot;version&quot;: &quot;2026-04-01&quot;, &quot;code&quot;: &quot;G47.30&quot;, &quot;display&quot;: &quot;Sleep apnea, unspecified&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/sid/icd-10-cm&quot;&gt;&lt;version value=&quot;2026-04-01&quot;&gt;&lt;code value=&quot;G47.30&quot;&gt;&lt;display value=&quot;Sleep apnea, unspecified&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fshschool.org/courses-fsh-seminar-exercise/ValueSet/osa-vs"/>
+        <version value="0.1.0"/>
+        <name value="ObstructiveSleepApneaVS"/>
+        <title value="Obstructive Sleep Apnea Conditions"/>
+        <status value="draft"/>
+        <date value="2026-04-10T18:20:42+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:e9c1e077-a9e4-4ed1-8882-2a5722d3297b"/>
+          <timestamp value="2026-04-10T18:22:10+00:00"/>
+          <total value="2"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="includeDefinition"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://hl7.org/fhir/sid/icd-10-cm|2026-04-01"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/sid/icd-10-cm"/>
+            <code value="G47.33"/>
+            <display value="Obstructive sleep apnea (adult) (pediatric)"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/sid/icd-10-cm"/>
+            <code value="G47.30"/>
+            <display value="Sleep apnea, unspecified"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fshschool.org/courses-fsh-seminar-exercise/ValueSet/osa-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx.fhir.org based on codesystem International Classification of Diseases, 10th Revision, Clinical Modification (ICD-10-CM) version 2026-04-01
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://hl7.org/fhir/sid/icd-10-cm|2026-04-01" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 2 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://hl7.org/fhir/sid/icd-10-cm-G47.33"> </a>
+                  <code>http://hl7.org/fhir/sid/icd-10-cm</code>
+                </td>
+                <td style="white-space:nowrap">  G47.33</td>
+                <td>Obstructive sleep apnea (adult) (pediatric)</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/sid/icd-10-cm&quot;, &quot;version&quot;: &quot;2026-04-01&quot;, &quot;code&quot;: &quot;G47.33&quot;, &quot;display&quot;: &quot;Obstructive sleep apnea (adult) (pediatric)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/sid/icd-10-cm&quot;&gt;&lt;version value=&quot;2026-04-01&quot;&gt;&lt;code value=&quot;G47.33&quot;&gt;&lt;display value=&quot;Obstructive sleep apnea (adult) (pediatric)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://hl7.org/fhir/sid/icd-10-cm-G47.30"> </a>
+                  <code>http://hl7.org/fhir/sid/icd-10-cm</code>
+                </td>
+                <td style="white-space:nowrap">  G47.30</td>
+                <td>Sleep apnea, unspecified</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/sid/icd-10-cm&quot;, &quot;version&quot;: &quot;2026-04-01&quot;, &quot;code&quot;: &quot;G47.30&quot;, &quot;display&quot;: &quot;Sleep apnea, unspecified&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/sid/icd-10-cm&quot;&gt;&lt;version value=&quot;2026-04-01&quot;&gt;&lt;code value=&quot;G47.30&quot;&gt;&lt;display value=&quot;Sleep apnea, unspecified&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fshschool.org/courses-fsh-seminar-exercise/ValueSet/osa-vs"/>
+        <version value="0.1.0"/>
+        <name value="ObstructiveSleepApneaVS"/>
+        <title value="Obstructive Sleep Apnea Conditions"/>
+        <status value="draft"/>
+        <date value="2026-04-10T18:20:42+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:e9c1e077-a9e4-4ed1-8882-2a5722d3297b"/>
+          <timestamp value="2026-04-10T18:22:10+00:00"/>
+          <total value="2"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="includeDefinition"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://hl7.org/fhir/sid/icd-10-cm|2026-04-01"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/sid/icd-10-cm"/>
+            <code value="G47.33"/>
+            <display value="Obstructive sleep apnea (adult) (pediatric)"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/sid/icd-10-cm"/>
+            <code value="G47.30"/>
+            <display value="Sleep apnea, unspecified"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

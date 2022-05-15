@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="osa-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet osa-vs</b></p><a name="osa-vs"> </a><a name="hcosa-vs"> </a><ul><li>Include these codes as defined in <a href="http://tx.fhir.org/r4"><code>http://hl7.org/fhir/sid/icd-10-cm</code></a><span style="opacity: 0.5" title="Version is not explicitly stated. When building this specification, the most recent version 2026-04-01 has been used"> version ⏿2026-04-01</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/icd-10-cm#icd-10-cm-G47.4633">G47.33</a></td><td>Obstructive sleep apnea (adult) (pediatric)</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/icd-10-cm#icd-10-cm-G47.4630">G47.30</a></td><td>Sleep apnea, unspecified</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://fshschool.org/courses-fsh-seminar-exercise/ValueSet/osa-vs"/>
+  <version value="0.1.0"/>
+  <name value="ObstructiveSleepApneaVS"/>
+  <title value="Obstructive Sleep Apnea Conditions"/>
+  <status value="draft"/>
+  <date value="2026-03-27T16:16:52+00:00"/>
+  <publisher value="fshschool.org"/>
+  <contact>
+    <name value="fshschool.org"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://fshschool.org"/>
+    </telecom>
+  </contact>
+  <description value="Obstructive Sleep Apnea Conditions"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/sid/icd-10-cm"/>
+      <concept>
+        <code value="G47.33"/>
+        <display value="Obstructive sleep apnea (adult) (pediatric)"/>
+      </concept>
+      <concept>
+        <code value="G47.30"/>
+        <display value="Sleep apnea, unspecified"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

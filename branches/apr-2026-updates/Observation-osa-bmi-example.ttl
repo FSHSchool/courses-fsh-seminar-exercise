@@ -1,0 +1,68 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <https://loinc.org/rdf/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fshschool.org/courses-fsh-seminar-exercise/Observation/osa-bmi-example> a fhir:Observation ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "osa-bmi-example"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://fshschool.org/courses-fsh-seminar-exercise/StructureDefinition/OSABodyMassIndex"^^xsd:anyURI ;
+       fhir:l <http://fshschool.org/courses-fsh-seminar-exercise/StructureDefinition/OSABodyMassIndex>
+     ] )
+  ] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p class=\"res-header-id\"><b>Generated Narrative: Observation osa-bmi-example</b></p><a name=\"osa-bmi-example\"> </a><a name=\"hcosa-bmi-example\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-OSABodyMassIndex.html\">OSABodyMassIndex</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 39156-5}\">Body mass index (BMI) [Ratio]</span></p><p><b>subject</b>: <a href=\"Patient-osa-patient-jane-doe.html\">Jane Doe  Female, DoB: 1950-01-22 ( Medical Record Number: 1234 (use: usual, ))</a></p><p><b>effective</b>: 2021-09-28</p><p><b>performer</b>: <a href=\"Practitioner-osa-practitioner-kyle-anydoc.html\">Practitioner</a></p><p><b>value</b>: 32.5 kg/m2<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codekg/m2 = 'kg/m2')</span></p></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/observation-category>
+       ] ;
+       fhir:code [ fhir:v "vital-signs" ]
+     ] )
+  ] ) ; # 
+  fhir:code [
+     fhir:coding ( [
+       a loinc:39156-5 ;
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:code [ fhir:v "39156-5" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:l <http://fshschool.org/courses-fsh-seminar-exercise/Patient/osa-patient-jane-doe> ;
+     fhir:reference [ fhir:v "Patient/osa-patient-jane-doe" ]
+  ] ; # 
+  fhir:effective [
+     a fhir:DateTime ;
+     fhir:v "2021-09-28"^^xsd:date
+  ] ; # 
+  fhir:performer ( [
+     fhir:l <http://fshschool.org/courses-fsh-seminar-exercise/Practitioner/osa-practitioner-kyle-anydoc> ;
+     fhir:reference [ fhir:v "Practitioner/osa-practitioner-kyle-anydoc" ]
+  ] ) ; # 
+  fhir:value [
+     a fhir:Quantity ;
+     fhir:value [ fhir:v 32.5 ] ;
+     fhir:unit [ fhir:v "kg/m2" ] ;
+     fhir:system [
+       fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
+       fhir:l <http://unitsofmeasure.org>
+     ] ;
+     fhir:code [ fhir:v "kg/m2" ]
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+
