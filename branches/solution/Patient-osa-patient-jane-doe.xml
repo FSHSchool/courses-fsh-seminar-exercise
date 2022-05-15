@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="osa-patient-jane-doe"/>
+  <meta>
+    <profile value="http://fshschool.org/courses-fsh-seminar-exercise/StructureDefinition/OSAPatient"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Jane Doe </b> female, DoB: 1950-01-22 ( Medical Record Number: 1234 (USUAL))</p></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/patient-birthPlace">
+    <valueAddress>
+      <state value="MA"/>
+    </valueAddress>
+  </extension>
+  <identifier>
+    <use value="usual"/>
+    <type>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+        <code value="MR"/>
+        <display value="Medical Record Number"/>
+      </coding>
+    </type>
+    <system value="http://hospital.example.org"/>
+    <value value="1234"/>
+  </identifier>
+  <name>
+    <family value="Doe"/>
+    <given value="Jane"/>
+  </name>
+  <gender value="female"/>
+  <birthDate value="1950-01-22"/>
+</Patient>

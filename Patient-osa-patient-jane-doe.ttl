@@ -1,0 +1,60 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fshschool.org/courses-fsh-seminar-exercise/Patient/osa-patient-jane-doe> a fhir:Patient;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "osa-patient-jane-doe"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://fshschool.org/courses-fsh-seminar-exercise/StructureDefinition/OSAPatient";
+       fhir:index 0;
+       fhir:link <http://fshschool.org/courses-fsh-seminar-exercise/StructureDefinition/OSAPatient>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Jane Doe </b> female, DoB: 1950-01-22 ( Medical Record Number: 1234 (USUAL))</p></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/patient-birthPlace" ];
+     fhir:Extension.valueAddress [
+       fhir:Address.state [ fhir:value "MA" ]
+     ]
+  ];
+  fhir:Patient.identifier [
+     fhir:index 0;
+     fhir:Identifier.use [ fhir:value "usual" ];
+     fhir:Identifier.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v2-0203" ];
+         fhir:Coding.code [ fhir:value "MR" ];
+         fhir:Coding.display [ fhir:value "Medical Record Number" ]
+       ]
+     ];
+     fhir:Identifier.system [ fhir:value "http://hospital.example.org" ];
+     fhir:Identifier.value [ fhir:value "1234" ]
+  ];
+  fhir:Patient.name [
+     fhir:index 0;
+     fhir:HumanName.family [ fhir:value "Doe" ];
+     fhir:HumanName.given [
+       fhir:value "Jane";
+       fhir:index 0
+     ]
+  ];
+  fhir:Patient.gender [ fhir:value "female"];
+  fhir:Patient.birthDate [ fhir:value "1950-01-22"^^xsd:date] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://fshschool.org/courses-fsh-seminar-exercise/Patient/osa-patient-jane-doe.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

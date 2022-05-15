@@ -1,0 +1,47 @@
+{
+  "resourceType": "Patient",
+  "id": "osa-patient-jane-doe",
+  "meta": {
+    "profile": [
+      "http://fshschool.org/courses-fsh-seminar-exercise/StructureDefinition/OSAPatient"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Jane Doe </b> female, DoB: 1950-01-22 ( Medical Record Number: 1234 (USUAL))</p></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/patient-birthPlace",
+      "valueAddress": {
+        "state": "MA"
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record Number"
+          }
+        ]
+      },
+      "system": "http://hospital.example.org",
+      "value": "1234"
+    }
+  ],
+  "name": [
+    {
+      "family": "Doe",
+      "given": [
+        "Jane"
+      ]
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1950-01-22"
+}

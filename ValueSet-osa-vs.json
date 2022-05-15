@@ -1,0 +1,44 @@
+{
+  "resourceType": "ValueSet",
+  "id": "osa-vs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-icd10CM.html\"><code>http://hl7.org/fhir/sid/icd-10-cm</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>G47.33</td><td>Obstructive sleep apnea (adult) (pediatric)</td></tr><tr><td>G47.30</td><td>Sleep apnea, unspecified</td></tr></table></li></ul></div>"
+  },
+  "url": "http://fshschool.org/courses-fsh-seminar-exercise/ValueSet/osa-vs",
+  "version": "0.1.0",
+  "name": "ObstructiveSleepApneaVS",
+  "title": "Obstructive Sleep Apnea Conditions",
+  "status": "active",
+  "date": "2022-05-18T11:06:38+00:00",
+  "publisher": "fshschool.org",
+  "contact": [
+    {
+      "name": "fshschool.org",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://fshschool.org"
+        }
+      ]
+    }
+  ],
+  "description": "Obstructive Sleep Apnea Conditions",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "concept": [
+          {
+            "code": "G47.33",
+            "display": "Obstructive sleep apnea (adult) (pediatric)"
+          },
+          {
+            "code": "G47.30",
+            "display": "Sleep apnea, unspecified"
+          }
+        ]
+      }
+    ]
+  }
+}
