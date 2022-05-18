@@ -67,9 +67,9 @@ jobs:
         run: |
           # Deploy
           git config --global user.email "noreply@mitre.org"
-          git config --global user.name "FSH Finder Build"
-          git worktree add gh-pages
-          cd gh-pages
+          git config --global user.name "Auto-build"
+          git worktree add $GITHUB_WORKSPACE/../gh-pages
+          cd $GITHUB_WORKSPACE/../gh-pages
 
           # Refresh in case another build has happened while this was running
           # This mitigates a race condition with multiple simultaneous builds
@@ -91,9 +91,9 @@ jobs:
         run: |
           # Deploy
           git config --global user.email "noreply@mitre.org"
-          git config --global user.name "FSH Finder Build"
-          git worktree add gh-pages
-          cd gh-pages
+          git config --global user.name "Auto-build"
+          git worktree add $GITHUB_WORKSPACE/../gh-pages
+          cd $GITHUB_WORKSPACE/../gh-pages
 
           # Refresh in case another build has happened while this was running
           # This mitigates a race condition with multiple simultaneous builds
