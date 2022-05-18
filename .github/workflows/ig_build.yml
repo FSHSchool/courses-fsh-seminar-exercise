@@ -70,6 +70,12 @@ jobs:
           git config --global user.name "FSH Finder Build"
           git worktree add gh-pages
           cd gh-pages
+
+          # Refresh in case another build has happened while this was running
+          # This mitigates a race condition with multiple simultaneous builds
+          git fetch origin
+          git reset --hard origin/gh-pages
+
           mkdir -p branches
           mv branches ..
           rm -rf *
@@ -88,6 +94,12 @@ jobs:
           git config --global user.name "FSH Finder Build"
           git worktree add gh-pages
           cd gh-pages
+
+          # Refresh in case another build has happened while this was running
+          # This mitigates a race condition with multiple simultaneous builds
+          git fetch origin
+          git reset --hard origin/gh-pages
+
           mkdir -p branches/${GITHUB_REF##*/}
           rm -rf branches/${GITHUB_REF##*/}/*
           cp -r $GITHUB_WORKSPACE/output/* branches/${GITHUB_REF##*/}/
