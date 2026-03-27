@@ -14,25 +14,25 @@ jobs:
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-     
+
     # Steps represent a sequence of tasks that will be executed as part of the job
         # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v6
 
       - name: Cache contents of ~/.fhir
         id: fhir-cache
-        uses: actions/cache@v3
+        uses: actions/cache@v5
         with:
           path: ~/.fhir
           key: ${{ runner.os }}-fhir
 
       # Makes Java available - see https://github.com/actions/setup-java
-      - uses: actions/setup-java@v3
+      - uses: actions/setup-java@v5
         with:
           distribution: 'zulu' # See 'Supported distributions' for available options
-          java-version: '11'
+          java-version: '21'
 
       # Makes Ruby available for Jekyll - see https://github.com/ruby/setup-ruby
       - name: Create Gemfile to cache Jekyll + dependencies
@@ -48,9 +48,9 @@ jobs:
           echo "`pwd`/bin" >> $GITHUB_PATH
 
       # Makes Node available for SUSHI - see https://github.com/actions/setup-node
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v6
         with:
-          node-version: 18
+          node-version: 24
       - run: npm install -g fsh-sushi
 
       # Grab the latest version of the IG Publisher and stick in the right folder
